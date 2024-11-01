@@ -1,0 +1,104 @@
+body {
+    background-image: url("background.jpeg");
+}
+
+h1 {
+    font-size: 80px;
+    font-family: cursive;
+    color: purple;
+    text-decoration-style: wavy;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+}
+
+#Boundaries {
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    font-family:fantasy;
+}
+
+.StylesYouLove {
+    font-size: 40px;
+    font-family: cursive;
+    color: orange;
+    outline-color: white;
+    outline-width: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+}
+
+header {
+    border-style: dashed;
+    border-width: 5px;
+    border-color:darkslategray;
+    background-color: darkgrey;
+    background-image: url("emo.jpeg");
+    background-size: cover;
+}
+
+p {
+    text-align: center;
+    font-family: fantasy;
+    color:darkslateblue;
+    background-color: black;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(162, 105, 0);
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(162, 105, 0);
+}
+
+th {
+    border-width: 2px;
+    border-color: grey;
+    border-style: solid;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    transition: height 1s, width 1s;
+}
+
+.changer1:hover {
+    width: 300px;
+    height: 300px;
+}
+
+a {
+    color: rgb(105, 155, 156);
+    transition: font-size 1s, color 2s;
+}
+
+.changer2:hover {
+    font-size: 25px;
+    color: darkslategray;
+}
+
+footer {
+    text-align: center;
+    border-width: 5px;
+    border-color:orange;
+    border-style:solid;
+    background-color: black;
+    ul {
+        li {
+            text-align: center;
+            color:burlywood;
+            font-family: fantasy;
+        }
+    }
+}
